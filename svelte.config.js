@@ -15,6 +15,9 @@ const config = {
       fallback: "index.html",
     }),
     router: { type: "hash" },
+    output: {
+      bundleStrategy: "inline",
+    },
   },
 };
 
